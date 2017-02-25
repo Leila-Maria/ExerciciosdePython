@@ -24,7 +24,7 @@ while True:
     if num == "done" : break  
           
     try:  
-        n=int(num)
+        n=float(num)
         total = n + total
         count = count + 1
         average = total / count        
